@@ -15,7 +15,6 @@ main{
 .container{
     background-color: white;
     width: 870px;
-    height: 679px;
     padding: 30px;
     border-radius: 10px;
     margin-top: 30px;
@@ -73,3 +72,36 @@ hr{
     text-decoration: none;
     font-size: 16px;
 }
+
+/* ----------------
+    courses style
+    ---------------
+ */
+ .courses{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+ }
+ .course .course-thumbnail img{
+     width: 224px;
+     height: 104px;
+ }
+ .course-rate{
+     display: flex;
+ }
+ .fa-star{
+     font-family: 12px;
+ }
+ .course-rating .filled{
+     color: #FFC014;
+ }
+ .course-rating .empty{
+     color:#AEAEAE;
+     ;
+ }
+ .course-duration{
+     border: 1px solid #ED6B4F;
+     background-color: #ED6B4F;
+     border-radius: 10px;
+     padding: 0 3px;
+     margin-left: 10px;
+ }
